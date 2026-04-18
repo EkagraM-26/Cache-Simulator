@@ -1,0 +1,13 @@
+# Cache Simulator — Sample Trace
+# Format: R/W address_hex size_bytes
+# Lines starting with '#' are comments
+R 0x7fff5c400000 8
+W 0x7fff5c400008 8
+R 0x7fff5c400010 8
+R 0x7fff5c400040 8
+W 0x7fff5c400080 4
+R 0x7fff5c400100 8
+R 0x7fff5c400000 8
+R 0x7fff5c400040 8
+W 0x7fff5c500000 8
+R 0x7fff5c500040 4
