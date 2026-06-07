@@ -195,7 +195,7 @@ TraceReader        — streaming parser, auto-detects format
 ## Extending the Simulator
 
 ### Add a New Replacement Policy
-Create `src/policies/my_policy.hpp` implementing `ReplacementPolicy`:
+Created `src/policies/my_policy.hpp` implementing `ReplacementPolicy`:
 ```cpp
 class OptimalPolicy : public ReplacementPolicy {
 public:
@@ -229,4 +229,4 @@ Then register it in `cache_hierarchy.hpp`'s `make_policy()` factory.
 ---
 
 ## License
-MIT — free to use, modify, and include in your portfolio.
+MIT — free to use.
